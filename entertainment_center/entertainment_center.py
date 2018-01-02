@@ -50,3 +50,4 @@ movies = [monsters_inc, donnie_darko, pulp_fiction, kill_bill, reservoir_dogs, j
 
 # Calls the webpage giving the list of movies as argument.
 fresh_tomatoes.open_movies_page(movies)
+print("The movie page was opened")
