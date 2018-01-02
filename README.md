@@ -1,2 +1,2 @@
-# ud036_StarterCode
-Source code for a Movie Trailer website.
+# Aquino's Entertainment Center Project
+Aquino's Entertainment Center Project is a web page that shows my favorites movies.
