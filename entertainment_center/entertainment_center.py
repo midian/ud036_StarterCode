@@ -1,7 +1,12 @@
 import media
 import fresh_tomatoes
 
-"""This file is responsible to create a list of movies and open the page movies."""
+"""
+    This file is responsible to create a list of movies and open the page movies.
+
+    This file was based on example wrote on Udacity class.
+
+"""
 
 # The code above is responsible to inicializate movies
 

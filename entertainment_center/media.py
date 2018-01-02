@@ -1,8 +1,13 @@
 import webbrowser
 
+
+# This Movie model was based on Movie class wrote on Udacity class.
 class Movie():
 
-    """ This class provides a way to store movie related information
+    """
+    This class provides a way to store movie related information
+
+    This Movie model was based on Movie class wrote on Udacity class.
 
     Attributes:
         attr1 (str): This attribute represents the movie's title.
