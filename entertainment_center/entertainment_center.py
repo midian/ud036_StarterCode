@@ -16,7 +16,7 @@ monsters_inc = media.Movie("Monsters, Inc.",
                            "The city of Monstropolis in the monster world" +
                            " is powered by energy from the screams of " +
                            " human children.",
-                           "http://upload.wikimedia.org/wikipedia/en/6/63/" /
+                           "http://upload.wikimedia.org/wikipedia/en/6/63/" +
                            "Monsters_Inc.JPG",
                            "https://www.youtube.com/watch?v=UplAPb2sfbs")
 
@@ -27,7 +27,7 @@ donnie_darko = media.Movie("Donnie Darko",
                            " Virginia, troubled teenager Donnie Darko " +
                            " sleepwalks out his house and is woken in a" +
                            " by a figure monstrous rabbit costume.",
-                           "http://upload.wikimedia.org/wikipedia/en/d/db/" /
+                           "http://upload.wikimedia.org/wikipedia/en/d/db/" +
                            "Donnie_Darko_poster.jpg",
                            "https://www.youtube.com/watch?v=ZZyBaFYFySk")
 
@@ -35,8 +35,8 @@ donnie_darko = media.Movie("Donnie Darko",
 pulp_fiction = media.Movie("Pulp Fiction",
                            "One of the most famous films" +
                            "of Quentin Tarantino.",
-                           "http://upload.wikimedia.org/wikipedia/pt/thumb/8" /
-                           "/82/Pulp_Fiction_cover.jpg/240px-" /
+                           "http://upload.wikimedia.org/wikipedia/pt/thumb/8" +
+                           "/82/Pulp_Fiction_cover.jpg/240px-" +
                            "Pulp_Fiction_cover.jpg",
                            "https://www.youtube.com/watch?v=s7EdQ4FqbhY")
 
@@ -48,8 +48,8 @@ kill_bill = media.Movie("Kill Bill",
                         " the Deadly Viper Assassination Squad. " +
                         "She tells their leader, Bill, " +
                         "that she is pregnant with his baby.",
-                        "http:////upload.wikimedia.org/wikipedia/en/" /
-                        "thumb/c/cf/Kill_bill_vol_one_ver.jpg/220px-" /
+                        "http:////upload.wikimedia.org/wikipedia/en/" +
+                        "thumb/c/cf/Kill_bill_vol_one_ver.jpg/220px-" +
                         "Kill_bill_vol_one_ver.jpg",
                         "https://www.youtube.com/watch?v=iTCHO0jx2C8")
 
@@ -60,8 +60,8 @@ reservoir_dogs = media.Movie("Reservoir Dogs",
                              " Six of them use aliases: Mr. Blonde," +
                              " Mr. Blue, Mr. Brown, Mr. Orange," +
                              " Mr. Pink, and Mr. White. ",
-                             "http://upload.wikimedia.org/wikipedia/en/" /
-                             "thumb/f/f6/Reservoir_dogs_ver1.jpg/220px-" /
+                             "http://upload.wikimedia.org/wikipedia/en/" +
+                             "thumb/f/f6/Reservoir_dogs_ver1.jpg/220px-" +
                              "Reservoir_dogs_ver1.jpg",
                              "https://www.youtube.com/watch?v=2KLZ4fSXtgI")
 
@@ -75,8 +75,8 @@ jackie_brown = media.Movie("Jackie Brown",
                            " Los Angeles metropolitan area under the " +
                            "ATF's close watch, forcing him to " +
                            "use couriers.",
-                           "http://upload.wikimedia.org/wikipedia/en/thumb/" /
-                           "8/80/Jackie_Brown70%27s.jpg/220px-" /
+                           "http://upload.wikimedia.org/wikipedia/en/thumb/" +
+                           "8/80/Jackie_Brown70%27s.jpg/220px-" +
                            "Jackie_Brown70%27s.jpg",
                            "https://www.youtube.com/watch?v=HlAECQzTkfY")
 
@@ -88,3 +88,4 @@ movies = [monsters_inc, donnie_darko, pulp_fiction,
 # Calls the webpage giving the list of movies as argument.
 fresh_tomatoes.open_movies_page(movies)
 print("The movie page was opened")
+
